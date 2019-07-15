@@ -1,0 +1,98 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color:#444;
+}
+/* Fonts */
+h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 300;
+}
+h3{
+    font-size: 1.75rem;
+    font-weight: 300;
+ }
+ h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+ }
+ h5{
+    font-size: 1.5rem;
+    font-weight: 400;
+ }
+ p{
+    font-weight: 300;
+ }
+ .card-body .display-1{
+     font-size:6.25rem;
+ }
+/* Fondos */
+.fondo{
+    background-color: rgba(0, 0, 0, .5);
+    height: 100vh; 
+    background-position: center;
+    background-size: cover; 
+  }
+.fondo-2{
+    background-color: rgba(0, 0, 0, .5);
+    height: 100vh; 
+}
+.bg-fondo-claro{
+    background-color:#fefaec;
+}
+.bg-danger{
+    background-color:#f38181 !important;
+}
+.bg-primary{
+    background-color:#a9eeea !important;
+}
+a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover {
+    background-color: #3c8980 !important;
+}
+.bg-morado{
+    background-color:#625772;
+}
+.btn-primary{
+    color: #fff;
+    background-color: #a9eeea;
+    border-color: #a9eeea;
+}
+a.btn-primary:focus, a.btn-primary:hover {
+    color: #fff;
+    background-color: #3c8980;
+    border-color: #3c8980;
+}
+
+.btn-danger{
+    color: #fff;
+    background-color: #f38181;
+    border-color: #f38181;
+}
+/* Boton */
+.btn{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.pb-25{
+    padding-bottom:2.5rem;
+}
+/* Iconos */
+.iconos{
+    font-size:2.25rem;
+}
+
+/* Otros */
+.card{
+    border:none;
+}
+
+.form-control{
+    border:1px solid rgba(0,0,0,1);
+}
